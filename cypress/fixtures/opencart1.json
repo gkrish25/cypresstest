@@ -1,0 +1,19 @@
+[
+    {
+        "username":"gokulkrishna.test@gmail.com",
+        "password":"test@123",
+        "expected":"Logout"
+    },
+    {
+        "username":"gokulkrishna@gmail.com",
+        "password":"test@123",
+        "expected":" Warning: No match for E-Mail Address and/or Password."
+
+    },
+    {
+        "username":"gokulkrishna.test@gmail.com",
+        "password":"test@",
+        "expected":" Warning: No match for E-Mail Address and/or Password."
+
+    }
+]
